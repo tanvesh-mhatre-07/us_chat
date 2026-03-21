@@ -1,0 +1,55 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #36393f;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    height: 100vh;
+    background: #36393f;
+    color: white;
+}
+
+.servers {
+    width: 80px;
+    background: #202225;
+    padding: 10px;
+}
+
+.channels {
+    width: 200px;
+    background: #2f3136;
+    padding: 10px;
+}
+
+.chat {
+    flex: 1;
+    background: #36393f;
+    padding: 10px;
+}
+
+.server, .channel {
+    padding: 10px;
+    margin: 5px 0;
+    background: #40444b;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.server:hover, .channel:hover {
+    background: #5865f2;
+}
+
+.top {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,62 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #36393f;
+    color: white;
+}
+
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-box {
+    background: #2f3136;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #40444b;
+    color: white;
+}
+
+.auth-box button {
+    width: 100%;
+    padding: 10px;
+    background: #5865f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.auth-box button:hover {
+    background: #4752c4;
+}
+
+.auth-box a {
+    display: block;
+    margin-top: 10px;
+    color: #b9bbbe;
+    text-decoration: none;
+}
